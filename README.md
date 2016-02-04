@@ -18,4 +18,4 @@ How to Install simple bundle in your instance of Cog.
 3. Ensure that the permissions on the script are set such that it is executable
 4. Change the JSON file to set the command's "executable" path to point to the corresponding script
 5. Place the JSON file in Relay's `pending` directory
-6. Relay should pick up the bundle and you should see a message that states "Bundle file /path/to/relay/pending/bundle_file has been successfully deployed to /path/to/relay/bundles/bundle_file"
+6. Relay should pick up the bundle and you should see a message in the log that states "Bundle file /path/to/relay/pending/bundle_file has been successfully deployed to /path/to/relay/bundles/bundle_file"
