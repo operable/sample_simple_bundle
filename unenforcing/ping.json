@@ -11,7 +11,7 @@
     {
       "name": "ping",
       "version": "0.1",
-      "executable": "/Users/latitia/bin/cog_ping.py",
+      "executable": "/path/to/cog_ping.py",
       "enforcing": false,
       "calling_convention": "bound",
       "env_vars": {},

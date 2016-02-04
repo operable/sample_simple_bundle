@@ -10,7 +10,7 @@
     {
       "name": "netstat",
       "version": "0.1",
-      "executable": "/Users/latitia/bin/cog_netstat.py",
+      "executable": "/path/to/cog_netstat.py",
       "enforcing": true,
       "calling_convention": "bound",
       "env_vars": {"PYTHONPATH": "$INSTALL_PATH"},
