@@ -1,0 +1,17 @@
+---
+bundle:
+  name: ping
+  type: foreign
+  install: "/usr/bin/touch /tmp/ping.installed"
+templates: []
+permissions: []
+rules: []
+commands:
+- name: ping
+  version: '0.1'
+  executable: "/path/to/cog_ping.py"
+  enforcing: false
+  calling_convention: bound
+  env_vars: {}
+  documentation: ping <host> - send ICMP ECHO_REQUEST packets to network hosts
+  options: []

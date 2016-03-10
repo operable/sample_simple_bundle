@@ -1,0 +1,32 @@
+---
+bundle:
+  name: netstat
+  type: foreign
+templates: []
+permissions:
+- netstat:read
+rules:
+- when command is netstat:netstat must have netstat:read
+commands:
+- name: netstat
+  version: '0.1'
+  executable: "/path/to/cog_netstat.py"
+  enforcing: true
+  calling_convention: bound
+  env_vars:
+    PYTHONPATH: "$INSTALL_PATH"
+  documentation: netstat [-a, -m, -n] [<search string>] - shows the network status
+    allowing search of particular string or IP address
+  options:
+  - type: bool
+    required: false
+    name: numbers
+    short_flag: n
+  - type: bool
+    required: false
+    name: stats
+    short_flag: m
+  - type: bool
+    required: false
+    name: all
+    short_flag: a
