@@ -12,7 +12,6 @@ commands:
   version: '0.1'
   executable: "/path/to/cog_netstat.py"
   enforcing: true
-  calling_convention: bound
   env_vars:
     PYTHONPATH: "$INSTALL_PATH"
   documentation: netstat [-a, -m, -n] [<search string>] - shows the network status
