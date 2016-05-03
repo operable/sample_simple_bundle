@@ -2,7 +2,7 @@
 
 The bundles in this repository are examples of enforcing and non-enforcing commands.
 
-###Simple Commands:
+###Sample Commands:
 1. **netstat**: The netstat command is used as an example to demonstrate enforcing bundles
 2. **ping**: The ping command is used as an example to demonstate non-enforcing bundles
 
