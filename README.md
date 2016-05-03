@@ -13,7 +13,7 @@ permissions listed in the `config.yaml` file as well.
 
 How to Install simple bundle in your instance of Cog.
 
-1. Be sure that you have an instance of Relay installed (See <https://github.com/operable/cog/wiki/Installation-Guide> for more details on how to do this.)
+1. Be sure that you have an instance of Relay installed (See <http://docs.operable.io/docs/installation> for more details on how to do this.)
 2. Place the corresponding script in a directory of your choosing.
 3. Ensure that the permissions on the script are set such that it is executable
 4. Change the YAML file to set the command's "executable" path to point to the corresponding script
